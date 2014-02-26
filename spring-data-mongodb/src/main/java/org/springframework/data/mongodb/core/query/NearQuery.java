@@ -16,11 +16,11 @@
 package org.springframework.data.mongodb.core.query;
 
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.mongodb.core.geo.CustomMetric;
-import org.springframework.data.mongodb.core.geo.Distance;
-import org.springframework.data.mongodb.core.geo.Metric;
-import org.springframework.data.mongodb.core.geo.Metrics;
-import org.springframework.data.mongodb.core.geo.Point;
+import org.springframework.data.geo.CustomMetric;
+import org.springframework.data.geo.Distance;
+import org.springframework.data.geo.Metric;
+import org.springframework.data.geo.Metrics;
+import org.springframework.data.geo.Point;
 import org.springframework.util.Assert;
 
 import com.mongodb.BasicDBObject;
